@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segementation of Liver Tissue</title>
+    <link rel = "stylesheet" href="../static/css/main.css">
+</head>
+<body>
+    
+    <div class="navbar">
+        <div class="container">
+            <a class="logo" href="templates/index.html"> Liver<span>Segmentation</span> </a>
+
+                <nav> 
+                    <ul class="tools">
+                        <li class="manip3"> <a href="/">Home</a></li>
+                        <li class="manip"><a href="/low_fibrosis_example/">Low Fibrosis Example</a></li>
+                        <li class="manip2"><a href="/high_fibrosis_example/">High Fibrosis Example</a></li>
+                        <!-- <li class="manip3"> <a href="/dataTable/">Data Table</a></li>
+                        <li class="manip4"><a href="#">Load Data</a></li> -->
+                </ul>
+
+            </nav>
+
+        </div>
+    </div>
+
+    <!-- <p>High Fibrosis Example</p> -->
+    <!-- <div id="openseadragon1" style="width: 600px; height: 400px; background-color: black; padding: 1em;"></div>
+    <script src="../static/openseadragon.0/openseadragon.min.js"></script>
+    <script type="text/javascript">
+        var viewer = OpenSeadragon({
+            id: "openseadragon1",
+            prefixUrl: "../static/openseadragon.0/images/",
+            tileSources: "../static/c0_vips.dzi"
+        });
+    </script> -->
+    <!-- <div id="openseadragon3" style="width: 400px; height: 400px; background-color: white;margin: auto;
+    width: 50%; border: 3px solid black;"></div>
+    <script src="../static/openseadragon.0/openseadragon.min.js"></script>
+    <script type="text/javascript">
+        var viewer = OpenSeadragon({
+            id: "openseadragon3",
+            prefixUrl: "../static/openseadragon.0/images/",
+            tileSources: "../static/objc0.dzi"
+        });
+    </script> -->
+
+    <p>{{value}} --> {{value2}}</p>
+
+    <div class="WSI">
+
+        <div class="WSI-child">
+    <div id="openseadragon6" style="width: 600px; height: 600px; background-color: white; border: 3px solid black;"></div>
+    </div>
+    <script src="../static/openseadragon.0/openseadragon.min.js"></script>
+    <script type="text/javascript">
+        var viewer = OpenSeadragon({
+            id: "openseadragon6",
+            prefixUrl: "../static/openseadragon.0/images/",
+            tileSources: "../static/c1_vips.dzi"
+        });
+    </script>
+    <div class="WSI-child">
+    <div id="openseadragon5" style="width: 600px; height: 600px; background-color: black; border: 3px solid black;"></div>
+    </div>
+    <script src="../static/openseadragon.0/openseadragon.min.js"></script>
+    <script type="text/javascript">
+        var viewer = OpenSeadragon({
+            id: "openseadragon5",
+            prefixUrl: "../static/openseadragon.0/images/",
+            tileSources: "../static/infc1.dzi"
+        });
+    </script>
+    <div class="WSI-child">
+        <div id="openseadragon4" style="width: 600px; height: 600px; background-color: black; border: 3px solid black;"></div>
+        </div>
+        <script src="../static/openseadragon.0/openseadragon.min.js"></script>
+        <script type="text/javascript">
+            var viewer = OpenSeadragon({
+                id: "openseadragon4",
+                prefixUrl: "../static/openseadragon.0/images/",
+                tileSources: "../static/objc1.dzi"
+            });
+        </script>
+    </div>
+    
+  
+</body>
+</html>
